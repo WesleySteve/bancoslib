@@ -17,9 +17,6 @@ format:
 install:
 	pip3 install .
 
-installdev:
-	pip3 install -e .['dev']
-
 
 uninstall:
 	pip3 uninstall bancoslib

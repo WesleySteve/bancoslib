@@ -13,6 +13,5 @@
 - │   └── __init__.py
 - ├── Makefile
 - ├── README.md
-- ├── requirements-dev.txt
 - ├── requirements.txt
 - └── setup.py

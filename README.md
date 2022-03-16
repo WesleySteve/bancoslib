@@ -9,6 +9,7 @@
 - ├── bancoslib
 - │   ├── db
 - │   │   ├── __init__.py
+- |   |   ├── sqlite.py
 - │   │   └── utils.py
 - │   └── __init__.py
 - ├── Makefile

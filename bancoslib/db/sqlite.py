@@ -17,7 +17,7 @@ def create_db_sqlite(path, nome_banco):
     return con
 
 
-def connect_db_sqlite(db_path, nome_banco):
+def connect_db_sqlite(db_path):
     """Função para se conectar com o banco de dados local sqlite
 
     Returns:

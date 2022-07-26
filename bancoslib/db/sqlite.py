@@ -28,7 +28,9 @@ def connect_db_sqlite(db_path, nome_banco):
     str_conexao = "sqlite:///{db_path}"
 
     # definindo string de conexao com o banco de dados sqlite
-    str_conexao = str_conexao.format(path=os.path.join(db_path, nome_banco))
+    str_conexao = "sqlite:///{path}".format(
+        path=os.path.join(db_path, nome_banco + ".db")
+    )
 
     # criando a conexao com o banco de dados sqlite
     con = sqlalchemy.create_engine(str_conexao)
